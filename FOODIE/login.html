@@ -11,24 +11,20 @@
 
   <div class="login-wrapper">
 
-    <!-- Logo Image -->
     <img src="assets/images/foodie-logo.png" alt="FOODIE Logo" class="login-logo" />
 
-    <!-- Page Title -->
     <h2 class="login-title">Log-In</h2>
 
-    <!-- Welcome Tagline -->
     <p class="welcome-tagline">
       Welcome to Foodie! Enter your details to feed your cravings and fuel your day.
     </p>
 
-    <!-- Login Form -->
-    <form class="login-form">
+    <form id="login-form" class="login-form">
       <label for="system-id" class="input-label">System ID</label>
-      <input type="text" id="system-id" placeholder="Enter your System ID" />
+      <input type="text" id="system-id" placeholder="Enter your System ID" required />
 
       <label for="password" class="input-label">Password</label>
-      <input type="password" id="password" placeholder="Enter your Password" />
+      <input type="password" id="password" placeholder="Enter your Password" required />
 
       <a href="#" class="forgot-link">Forgot Password?</a>
 
@@ -37,5 +33,6 @@
 
   </div>
 
+  <script src="js/login.js"></script>
 </body>
 </html>
